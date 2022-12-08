@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Nube Colectiva">
+    <title>Home | Mi Proyecto</title>    
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://nubecolectiva.com/favicon.ico"> 
+    
+    <!-- Hoja de Estilos Personalizada (estilos.css) --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    
+  </head>
+  <body> 
+
+    <main>
+
+      <div class="container mb-5">
+
+        <!-- Header -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Mi Proyecto</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Nosotros</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Servicios</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Contacto</a> 
+                  </li>
+
+                </ul>
+                
+                <div class="saludo">            
+                    <span id="txtsaludo"></span>
+                    <img name="tiempo" width="15%" src="">            
+                </div>
+
+                <div class="btn-group btodt" role="group" aria-label="Basic example">                 
+                  <button type="button" onclick="window.open('https://nubecolectiva.com/donaciones','_blank')" class="btn btn-warning">Donar</button>                 
+                  <button type="button" onclick="window.open('https://blog.nubecolectiva.com/como-subir-una-web-a-github-pages/','_blank')" class="btn btn-info">Post</button>
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+
+        </header>     
+        
+        <!-- Contenido --> 
+        <div class="row">
+
+          <div class="col-md-12 mt-5 mb-5">
+            
+            <h1 class="text-center mb-5">Mi Sitio Web</h1> 
+
+            <div class="row"> 
+                
+                <p>"Conectate y Desconectate de Internet Para Ver Como Cambia el Mensaje (Cuando te Conectes a Internet, debes esperar unos segundos para que Detecte la conexión...)"</p>
+
+                <div id="estado" class="alert alert-success" role="alert">
+                    Estas Conectado a Internet ! 
+                </div>                
+                
+            </div>
+
+            <div class="row mt-2 mb-3" align="center">
+              <a href="https://blog.nubecolectiva.com/como-personalizar-un-scrollbar-con-css-para-todos-los-navegadores/" target="_blank" title="Como Personalizar un Scrollbar con CSS Para Todos los Navegadores">
+                <img src="assets/img/mimg_destacada_blog_devs-930x360.png" class="img-fluid">
+              </a>
+            </div>
+            
+            <div class="row">
+                <p>
+                    Suspendisse ullamcorper vitae tortor non viverra. Cras gravida ullamcorper pulvinar. Maecenas sed purus arcu. Aenean efficitur vitae sapien sed pretium. Donec iaculis et augue id facilisis. Pellentesque scelerisque pulvinar nisi eget efficitur. Etiam sed semper ipsum. Vivamus magna ex, tempor vel orci nec, imperdiet rutrum odio. Integer hendrerit ornare sem. Suspendisse molestie vel velit eget placerat. Fusce hendrerit convallis enim, et pellentesque turpis pharetra quis. Suspendisse ultricies velit et metus malesuada ultricies.              
+                </p> 
+                <p>
+                    Donec non imperdiet dui, interdum fermentum urna. Fusce nec tortor erat. Nunc ut feugiat justo. Ut orci arcu, aliquet in tincidunt at, tristique sit amet purus. Pellentesque eget velit sem. Praesent rutrum libero at pharetra pulvinar. Aenean nec dolor lacus. Morbi a ante ornare, facilisis ipsum sed, hendrerit quam. Fusce non sapien finibus, venenatis dui eget, aliquam magna. Praesent tempor nisl vitae felis tincidunt, ut commodo elit semper. Sed faucibus, ligula ac laoreet porta, libero massa ullamcorper nisi, sed imperdiet sem ante sit amet libero. Phasellus quis aliquam eros. Quisque bibendum, orci at porta sollicitudin, urna justo finibus nisi, eu hendrerit tellus velit in ligula. Aliquam porttitor nunc tortor, sit amet molestie tellus pharetra et. Nullam facilisis fermentum dolor nec lobortis. Vestibulum nec sem quis augue euismod iaculis a faucibus dolor.
+                </p>
+            </div>
+            
+          </div>
+                    
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->  
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">Mi Proyecto © <script>document.write(new Date().getFullYear())</script> </span>
+      </div>
+    </footer>
+
+     <!-- Archivo JS Bootstrap 5 -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>     
+
+    <!-- Archivo JS Personalizado --> 
+    <script type="text/javascript" src="assets/js/app.js"></script> 
+      
+  </body>
+</html>
